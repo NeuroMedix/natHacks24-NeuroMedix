@@ -1,0 +1,14 @@
+# 'deepchem[tensorflow,pytorch]' tensorflow torch torch-geometric pytorch-lightning jax
+# dgl
+# pytorch-lightning
+# deepchem==2.5.0
+# dm-haiku
+# tensorflow==2.13.0
+
+rdkit 
+transformers 
+deepchem 
+torch
+numpy 
+scikit-learn 
+tqdm
