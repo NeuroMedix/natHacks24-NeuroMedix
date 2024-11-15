@@ -13,19 +13,43 @@ class SMILESDecoder(nn.Module):
         self.max_length = max_length
 
         self.fc1 = nn.Linear(latent_dim, hidden_dim)
-        self.embedding = nn.Embedding(output_dim, hidden_dim)  # Map vocab indices to hidden_dim
-        # self.rnn = nn.GRU(hidden_dim, hidden_dim, batch_first=True)
-        self.rnn = nn.LSTM(hidden_dim, hidden_dim, batch_first=True)  # Replace GRU with LSTM
-        self.fc2 = nn.Linear(hidden_dim, output_dim)
+        self.embedding = nn.Embedding(output_dim, hidden_dim)  # Maps vocab indices to hidden_dim
+        self.rnn = nn.GRU(hidden_dim, hidden_dim, batch_first=True)
+        self.fc2 = nn.Linear(hidden_dim, output_dim)  # Maps RNN output to vocab size
 
-    def forward(self, fingerprints, hidden=None):
-        latent = self.fc1(fingerprints).unsqueeze(1)
+    def forward(self, latent_vectors, hidden=None):
+        latent = self.fc1(latent_vectors).unsqueeze(1)  # Embed latent vector
         outputs = []
         for _ in range(self.max_length):
             latent, hidden = self.rnn(latent, hidden)
             out = self.fc2(latent)
             outputs.append(out)
-        return torch.cat(outputs, dim=1)
+        return torch.cat(outputs, dim=1)  # Concatenate outputs along sequence length
+
+    def decode(self, latent_vector, max_length, vocab, temperature=1.0):
+        self.eval()
+        with torch.no_grad():
+            latent = self.fc1(latent_vector.unsqueeze(0))  # Shape: (1, hidden_dim)
+            hidden = None
+            sequence = []
+
+            for _ in range(max_length):
+                latent, hidden = self.rnn(latent, hidden)  # latent: (1, 1, hidden_dim)
+                output_logits = self.fc2(latent.squeeze(1))  # Shape: (1, vocab_size)
+
+                # Apply temperature scaling and sample from distribution
+                char_probs = torch.softmax(output_logits / temperature, dim=-1)
+                char_idx = torch.multinomial(char_probs, num_samples=1).item()
+
+                if vocab[char_idx] == '<EOS>':  # Stop if EOS token is generated
+                    break
+
+                sequence.append(char_idx)
+
+                # Re-embed the chosen character index for the next step
+                latent = self.embedding(torch.tensor([[char_idx]], dtype=torch.long))
+
+            return "".join([vocab[idx] for idx in sequence])
 
 # Dataset Class
 class SMILESDataset(Dataset):

@@ -126,13 +126,23 @@ with torch.no_grad():
 #     return "Invalid SMILES generated."
 
 # generated_smiles = generate_and_validate_smiles(decoder, latent_vector, max_length=120, vocab=idx_to_char)
+# Example latent vector
+latent_vector = torch.randn(1, 512)  # Random latent vector
 
-generated_smiles = generate_smiles_from_fingerprint(decoder, latent_vector, max_length=120, vocab=idx_to_char)
+# Generate SMILES
+generated_smiles = decoder.decode(latent_vector, max_length=120, vocab=idx_to_char)
+print()
+print("Generated SMILES:")
+print()
+print(generated_smiles)
+print()
 
-if validate_smiles(generated_smiles):
-    print("Generated SMILES (VAE):", generated_smiles)
-else:
-    print("Invalid SMILES generated.")
+# generated_smiles = generate_smiles_from_fingerprint(decoder, latent_vector, max_length=120, vocab=idx_to_char)
+
+# if validate_smiles(generated_smiles):
+#     print("Generated SMILES (VAE):", generated_smiles)
+# else:
+#     print("Invalid SMILES generated.")
 
 # Visualize Latent Space
 # latent_vectors = []
