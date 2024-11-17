@@ -1,0 +1,1176 @@
+[
+    {
+        "analogs": [
+            {
+                "smiles": "CC#CC(=O)C#N",
+                "molecularWeight": 93.085,
+                "logP": 0.10237999999999997,
+                "qed": 0.24195636156659767,
+                "saScore": 4.108269740370233,
+                "hydrogenBondAcceptors": 2,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.12162162162162163
+            },
+            {
+                "smiles": "O=C1C[C@H](O)C[C@H](n2nccn2)O1",
+                "molecularWeight": 183.16700000000003,
+                "logP": -0.5254000000000003,
+                "qed": 0.5922836734541242,
+                "saScore": 4.188209304360791,
+                "hydrogenBondAcceptors": 6,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.11627906976744186
+            },
+            {
+                "smiles": "CCC(=O)n1nccn1",
+                "molecularWeight": 125.13099999999999,
+                "logP": 0.3282999999999999,
+                "qed": 0.5429535506773522,
+                "saScore": 3.294344314917865,
+                "hydrogenBondAcceptors": 4,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.10256410256410256
+            },
+            {
+                "smiles": "CCC(C)(C)C(=O)c1ccccc1",
+                "molecularWeight": 176.259,
+                "logP": 3.305500000000002,
+                "qed": 0.6456398439016804,
+                "saScore": 1.7797012884703634,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 3,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.125
+            },
+            {
+                "smiles": "O=C=C1CCN(OP(=O)(O)O)CC1",
+                "molecularWeight": 207.12199999999999,
+                "logP": -0.13550000000000006,
+                "qed": 0.48388536806361543,
+                "saScore": 4.270568980778057,
+                "hydrogenBondAcceptors": 4,
+                "hydrogenBondDonors": 2,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.09523809523809523
+            }
+        ],
+        "name": "Acalabrutinib"
+    },
+    {
+        "analogs": [
+            {
+                "smiles": "O=C(O)c1ccccc1",
+                "molecularWeight": 122.12299999999996,
+                "logP": 1.3848,
+                "qed": 0.6106035394285075,
+                "saScore": 1.0549172379947862,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.16279069767441862
+            },
+            {
+                "smiles": "Cc1ncc(C(=O)O)c(C)n1",
+                "molecularWeight": 152.153,
+                "logP": 0.7916399999999999,
+                "qed": 0.6457851715282191,
+                "saScore": 2.0959998057932516,
+                "hydrogenBondAcceptors": 3,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.11320754716981132
+            },
+            {
+                "smiles": "O=P(O)(O)Oc1ccc(N2CCCC2)cc1",
+                "molecularWeight": 243.19899999999996,
+                "logP": 1.7583,
+                "qed": 0.7913915806970756,
+                "saScore": 2.0075915522714087,
+                "hydrogenBondAcceptors": 3,
+                "hydrogenBondDonors": 2,
+                "rotatableBonds": 3,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.14545454545454545
+            },
+            {
+                "smiles": "Cc1ncc(OP(=O)(O)O)c(C)n1",
+                "molecularWeight": 204.122,
+                "logP": 0.5649399999999999,
+                "qed": 0.6836382866838491,
+                "saScore": 2.798753777158147,
+                "hydrogenBondAcceptors": 4,
+                "hydrogenBondDonors": 2,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.125
+            },
+            {
+                "smiles": "O=C(O)c1ccc(N2CCCC2)cc1",
+                "molecularWeight": 191.22999999999996,
+                "logP": 1.9849999999999999,
+                "qed": 0.7766735534261697,
+                "saScore": 1.476450201076755,
+                "hydrogenBondAcceptors": 2,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.11320754716981132
+            }
+        ],
+        "name": "Acetyl-L-Carnitine"
+    },
+    {
+        "analogs": [
+            {
+                "smiles": "C[C@H](c1ncc2c(N)nccn12)n1cnc2c(N)ncnc21",
+                "molecularWeight": 295.31000000000006,
+                "logP": 0.6426999999999996,
+                "qed": 0.5554009931893743,
+                "saScore": 3.5298418127215,
+                "hydrogenBondAcceptors": 9,
+                "hydrogenBondDonors": 2,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.2857142857142857
+            },
+            {
+                "smiles": "Nc1nccn2c(C(=O)c3cc[nH]c3[C@@H]3CCOC3)nc(-c3ccccc3)c12",
+                "molecularWeight": 373.4160000000001,
+                "logP": 3.041500000000001,
+                "qed": 0.535891370682024,
+                "saScore": 3.461034630591403,
+                "hydrogenBondAcceptors": 6,
+                "hydrogenBondDonors": 2,
+                "rotatableBonds": 4,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.12790697674418605
+            },
+            {
+                "smiles": "CC(C(=O)c1ncc2c(N)nccn12)=C1OCc2ccccc21",
+                "molecularWeight": 306.325,
+                "logP": 2.4556000000000004,
+                "qed": 0.5806489771300605,
+                "saScore": 3.2250831296171905,
+                "hydrogenBondAcceptors": 6,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.1282051282051282
+            },
+            {
+                "smiles": "CCC(C)(C)C(C)=C1CCOC1",
+                "molecularWeight": 168.27999999999994,
+                "logP": 3.1594000000000015,
+                "qed": 0.5754193657834457,
+                "saScore": 3.406829061407838,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.06557377049180328
+            },
+            {
+                "smiles": "c1ncc2cc([C@@H]3CCOC3)ccc2n1",
+                "molecularWeight": 200.24099999999999,
+                "logP": 2.1337,
+                "qed": 0.70696961931628,
+                "saScore": 2.8342177281848144,
+                "hydrogenBondAcceptors": 3,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.1044776119402985
+            }
+        ],
+        "name": "Adenosine"
+    },
+    {
+        "analogs": [
+            {
+                "smiles": "O=CO[C@H]1CC[C@@H](c2ccc(F)c(Cl)c2)c2ccccc21",
+                "molecularWeight": 304.748,
+                "logP": 4.618900000000004,
+                "qed": 0.7734913250524309,
+                "saScore": 3.2587815115824714,
+                "hydrogenBondAcceptors": 2,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 3,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.20212765957446807
+            },
+            {
+                "smiles": "Cc1c(Cl)ccc2[nH]cnc12",
+                "molecularWeight": 166.611,
+                "logP": 2.5247199999999994,
+                "qed": 0.6403340003619417,
+                "saScore": 2.324599343741399,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.11235955056179775
+            },
+            {
+                "smiles": "Nc1c2c(nc3ccccc13)CCCC2",
+                "molecularWeight": 198.26899999999992,
+                "logP": 2.695800000000001,
+                "qed": 0.7064882384087371,
+                "saScore": 2.0147191327899314,
+                "hydrogenBondAcceptors": 2,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.0851063829787234
+            },
+            {
+                "smiles": "Fc1cccnc1",
+                "molecularWeight": 97.092,
+                "logP": 1.2207000000000001,
+                "qed": 0.47397196118629864,
+                "saScore": 1.7338205096010029,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.07058823529411765
+            },
+            {
+                "smiles": "Nc1nccn2cncc12",
+                "molecularWeight": 134.142,
+                "logP": 0.3115,
+                "qed": 0.5638030951061849,
+                "saScore": 2.8941149900176875,
+                "hydrogenBondAcceptors": 4,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.0425531914893617
+            }
+        ],
+        "name": "Afatinib"
+    },
+    {
+        "analogs": [
+            {
+                "smiles": "CCN(C)C(=O)c1ccc(F)cc1",
+                "molecularWeight": 181.20999999999998,
+                "logP": 1.9176,
+                "qed": 0.6821568725465931,
+                "saScore": 1.5944199697890475,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.18840579710144928
+            },
+            {
+                "smiles": "Cc1ncc(-c2ccc(F)cc2)c(C)n1",
+                "molecularWeight": 202.23199999999997,
+                "logP": 2.899540000000001,
+                "qed": 0.7101542994229767,
+                "saScore": 1.9067781737489717,
+                "hydrogenBondAcceptors": 2,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.1527777777777778
+            },
+            {
+                "smiles": "Fc1ccc(-c2ccccc2)cc1",
+                "molecularWeight": 172.202,
+                "logP": 3.492700000000002,
+                "qed": 0.6172445494970528,
+                "saScore": 1.1048944058792731,
+                "hydrogenBondAcceptors": 0,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.2413793103448276
+            },
+            {
+                "smiles": "Fc1ccccc1",
+                "molecularWeight": 96.10399999999998,
+                "logP": 1.8256999999999999,
+                "qed": 0.46184033029146143,
+                "saScore": 1.0,
+                "hydrogenBondAcceptors": 0,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.1724137931034483
+            },
+            {
+                "smiles": "Fc1cccnc1",
+                "molecularWeight": 97.092,
+                "logP": 1.2207000000000001,
+                "qed": 0.47397196118629864,
+                "saScore": 1.7338205096010029,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.1044776119402985
+            }
+        ],
+        "name": "Atorvastatin"
+    },
+    {
+        "analogs": [
+            {
+                "smiles": "C[N+](C)(C)CCC(=O)O",
+                "molecularWeight": 132.183,
+                "logP": 0.16729999999999973,
+                "qed": 0.555584739659288,
+                "saScore": 2.6931412939388437,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 3,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.24324324324324326
+            },
+            {
+                "smiles": "CCN1CCC[C@H]1O[P@@](=O)(O)OC",
+                "molecularWeight": 209.182,
+                "logP": 1.1916,
+                "qed": 0.7045764823208468,
+                "saScore": 3.7674924763239632,
+                "hydrogenBondAcceptors": 4,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 4,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.17307692307692307
+            },
+            {
+                "smiles": "CCCC[N+](C)(C)C",
+                "molecularWeight": 116.22799999999998,
+                "logP": 1.4927000000000001,
+                "qed": 0.49004916524427206,
+                "saScore": 2.51116756108415,
+                "hydrogenBondAcceptors": 0,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 3,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.19444444444444445
+            },
+            {
+                "smiles": "CCCCCCCC[N+](C)(C)C",
+                "molecularWeight": 172.336,
+                "logP": 3.0531000000000015,
+                "qed": 0.40884557209794836,
+                "saScore": 2.175897330638607,
+                "hydrogenBondAcceptors": 0,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 7,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.18421052631578946
+            },
+            {
+                "smiles": "CC[N+](C)(C)C",
+                "molecularWeight": 88.17399999999999,
+                "logP": 0.7124999999999999,
+                "qed": 0.41409086809263257,
+                "saScore": 2.921773151836458,
+                "hydrogenBondAcceptors": 0,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.15151515151515152
+            }
+        ],
+        "name": "Choline Alfoscerate"
+    },
+    {
+        "analogs": [
+            {
+                "smiles": "O=C(Oc1ccc(F)c(Cl)c1)c1ccc2c(c1)CCC2=O",
+                "molecularWeight": 304.7040000000001,
+                "logP": 3.827200000000002,
+                "qed": 0.6254156644239266,
+                "saScore": 2.06348586293543,
+                "hydrogenBondAcceptors": 3,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.15730337078651685
+            },
+            {
+                "smiles": "c1ncc2cc(OC3CCCCC3)ccc2n1",
+                "molecularWeight": 228.29499999999993,
+                "logP": 3.3413000000000013,
+                "qed": 0.790315252248239,
+                "saScore": 2.1162611519763033,
+                "hydrogenBondAcceptors": 3,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.14285714285714285
+            },
+            {
+                "smiles": "Nc1ncnc2c1ncn2[C@@H]1OC[C@@H](O)[C@H]1O",
+                "molecularWeight": 237.219,
+                "logP": -1.3409000000000006,
+                "qed": 0.561053802785875,
+                "saScore": 3.5975044544485044,
+                "hydrogenBondAcceptors": 8,
+                "hydrogenBondDonors": 3,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.08791208791208792
+            },
+            {
+                "smiles": "C[C@H]1C=C2C=C[C@H](C)[C@H]([C@H]3OC[C@@H](O)[C@H]3O)[C@H]2[C@H](c2ccc(F)cn2)C1",
+                "molecularWeight": 359.4410000000001,
+                "logP": 2.8294000000000015,
+                "qed": 0.8523830383923493,
+                "saScore": 4.941087294946561,
+                "hydrogenBondAcceptors": 4,
+                "hydrogenBondDonors": 2,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.07476635514018691
+            },
+            {
+                "smiles": "Cc1ncc2c(N)nccn12",
+                "molecularWeight": 148.169,
+                "logP": 0.6199199999999999,
+                "qed": 0.5954370615348293,
+                "saScore": 2.823239542252564,
+                "hydrogenBondAcceptors": 4,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.0875
+            }
+        ],
+        "name": "Daridorexant"
+    },
+    {
+        "analogs": [],
+        "name": "dec_smiles"
+    },
+    {
+        "analogs": [
+            {
+                "smiles": "CN(C)CCCc1cc2c(cc1[C@H]1OCc3ccccc31)CCC2=O",
+                "molecularWeight": 335.4470000000001,
+                "logP": 3.929300000000003,
+                "qed": 0.8290518087605983,
+                "saScore": 3.191088922480617,
+                "hydrogenBondAcceptors": 3,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 5,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.1728395061728395
+            },
+            {
+                "smiles": "CN(C)CCC=Nc1cccc(-c2ccc3c(c2)CCC3=O)c1",
+                "molecularWeight": 306.40900000000005,
+                "logP": 4.136500000000003,
+                "qed": 0.7778546985530229,
+                "saScore": 2.602155157589218,
+                "hydrogenBondAcceptors": 3,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 5,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.16666666666666666
+            },
+            {
+                "smiles": "O=C1CCc2ccccc21",
+                "molecularWeight": 132.16199999999998,
+                "logP": 1.8155000000000001,
+                "qed": 0.5258373333961016,
+                "saScore": 1.717912868001772,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.17857142857142858
+            },
+            {
+                "smiles": "O=C(N=C1CC1)c1ccc2c(c1)CCC2=O",
+                "molecularWeight": 213.23599999999993,
+                "logP": 2.1905,
+                "qed": 0.7174325410522657,
+                "saScore": 2.559674629194486,
+                "hydrogenBondAcceptors": 2,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.14705882352941177
+            },
+            {
+                "smiles": "CCCCCCc1ccccc1",
+                "molecularWeight": 162.276,
+                "logP": 3.809400000000003,
+                "qed": 0.5774504107669273,
+                "saScore": 1.2094738691001456,
+                "hydrogenBondAcceptors": 0,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 5,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.17543859649122806
+            }
+        ],
+        "name": "Donepezil Hydrochloride"
+    },
+    {
+        "analogs": [
+            {
+                "smiles": "CCC[C@@H](C)Cc1ccc2c(c1)CO[C@@]2(CCC)CCCN(C)C",
+                "molecularWeight": 331.5440000000001,
+                "logP": 5.5327000000000055,
+                "qed": 0.5584860770267153,
+                "saScore": 3.6138904770002505,
+                "hydrogenBondAcceptors": 2,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 10,
+                "lipinskiRule": "Fail",
+                "tanimotoSimilarity": 0.36231884057971014
+            },
+            {
+                "smiles": "CN1CC[C@]23c4c5ccc(-c6ccc(F)c(Cl)c6)c4O[C@H]2C(=O)CC[C@H]3[C@H]1C5",
+                "molecularWeight": 397.8770000000002,
+                "logP": 4.384200000000004,
+                "qed": 0.7146129459484383,
+                "saScore": 4.956995435812966,
+                "hydrogenBondAcceptors": 3,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.13829787234042554
+            },
+            {
+                "smiles": "CN1CC[C@]23c4c5cccc4O[C@H]2C(=O)CC[C@H]3[C@H]1C5",
+                "molecularWeight": 269.344,
+                "logP": 1.9246999999999999,
+                "qed": 0.7204981193090402,
+                "saScore": 4.948086339061634,
+                "hydrogenBondAcceptors": 3,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.10843373493975904
+            },
+            {
+                "smiles": "c1ccc2c(c1)COC2",
+                "molecularWeight": 120.15099999999998,
+                "logP": 1.7167999999999999,
+                "qed": 0.5061667423941253,
+                "saScore": 1.958222879020429,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.12962962962962962
+            },
+            {
+                "smiles": "Cc1ccc2c3c1O[C@H]1C(=O)CC[C@H]4[C@@H](C2)N(C)CC[C@]314",
+                "molecularWeight": 283.37100000000004,
+                "logP": 2.2331200000000004,
+                "qed": 0.7310876303659664,
+                "saScore": 4.9821061269670865,
+                "hydrogenBondAcceptors": 3,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.11904761904761904
+            }
+        ],
+        "name": "Escitalopram"
+    },
+    {
+        "analogs": [
+            {
+                "smiles": "CC(C)C(=O)C(C)C",
+                "molecularWeight": 114.18799999999997,
+                "logP": 1.8675,
+                "qed": 0.535255688692322,
+                "saScore": 2.2451220954971056,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.175
+            },
+            {
+                "smiles": "CC(C)N1CCC[C@@H]1OC(=O)c1cccc(F)c1",
+                "molecularWeight": 251.301,
+                "logP": 2.812800000000001,
+                "qed": 0.7735927667833036,
+                "saScore": 2.782224958449735,
+                "hydrogenBondAcceptors": 3,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 3,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.13043478260869565
+            },
+            {
+                "smiles": "CC(=O)O[C@@H]1CCCN1n1nccn1",
+                "molecularWeight": 196.21000000000004,
+                "logP": -0.10090000000000043,
+                "qed": 0.6179840545856637,
+                "saScore": 3.9241109643038037,
+                "hydrogenBondAcceptors": 6,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.11475409836065574
+            },
+            {
+                "smiles": "CC(=O)O[C@@H]1CCC(=C=O)c2ccccc21",
+                "molecularWeight": 216.23600000000002,
+                "logP": 2.2996000000000008,
+                "qed": 0.5340634269388048,
+                "saScore": 3.3603838539599984,
+                "hydrogenBondAcceptors": 3,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.09090909090909091
+            },
+            {
+                "smiles": "Cc1ncc(C2(C(=O)c3c(C)nc4n(c3=O)CCCC4)CCCCC2)c(C)n1",
+                "molecularWeight": 380.49200000000025,
+                "logP": 3.379660000000002,
+                "qed": 0.7630087506416556,
+                "saScore": 3.102222345052148,
+                "hydrogenBondAcceptors": 6,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 3,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.13157894736842105
+            }
+        ],
+        "name": "Gabapentin Enacarbil"
+    },
+    {
+        "analogs": [
+            {
+                "smiles": "O=C1CCc2ccccc21",
+                "molecularWeight": 132.16199999999998,
+                "logP": 1.8155000000000001,
+                "qed": 0.5258373333961016,
+                "saScore": 1.717912868001772,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.13114754098360656
+            },
+            {
+                "smiles": "O=P(O)(O)Oc1ccc[nH]1",
+                "molecularWeight": 163.06900000000002,
+                "logP": 0.48619999999999997,
+                "qed": 0.5536478926558909,
+                "saScore": 3.382105264111411,
+                "hydrogenBondAcceptors": 2,
+                "hydrogenBondDonors": 3,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.08955223880597014
+            },
+            {
+                "smiles": "c1ccc(NC2CC2)nc1",
+                "molecularWeight": 134.18200000000002,
+                "logP": 1.6559,
+                "qed": 0.6649138110645298,
+                "saScore": 1.8172518600442142,
+                "hydrogenBondAcceptors": 2,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.08955223880597014
+            },
+            {
+                "smiles": "CC(C)c1cc[nH]c1N",
+                "molecularWeight": 124.18699999999998,
+                "logP": 1.7203,
+                "qed": 0.5877078307883445,
+                "saScore": 2.998116468764019,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 2,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.07692307692307693
+            },
+            {
+                "smiles": "C[N+](C)(C)CC(Cn1nccn1)=C1CC1",
+                "molecularWeight": 207.301,
+                "logP": 1.0746999999999993,
+                "qed": 0.5460736141265473,
+                "saScore": 3.742281336439939,
+                "hydrogenBondAcceptors": 3,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 4,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.08450704225352113
+            }
+        ],
+        "name": "Hydrocodone"
+    },
+    {
+        "analogs": [
+            {
+                "smiles": "Oc1ccc(F)cn1",
+                "molecularWeight": 113.09100000000001,
+                "logP": 0.9262999999999999,
+                "qed": 0.542412889078179,
+                "saScore": 2.6133691694757584,
+                "hydrogenBondAcceptors": 2,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.20634920634920634
+            },
+            {
+                "smiles": "CC(C)c1ccc(F)cn1",
+                "molecularWeight": 139.17299999999997,
+                "logP": 2.3441,
+                "qed": 0.5815651878611303,
+                "saScore": 2.0954232128293597,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.19696969696969696
+            },
+            {
+                "smiles": "CN1CC[C@]23c4c5ccc(C(=O)c6ccc7ncncc7c6)c4O[C@H]2C(=O)CC[C@H]3[C@H]1C5",
+                "molecularWeight": 425.4880000000002,
+                "logP": 3.0989000000000013,
+                "qed": 0.587810852573935,
+                "saScore": 5.131720700543758,
+                "hydrogenBondAcceptors": 6,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.14545454545454545
+            },
+            {
+                "smiles": "CN1CC[C@]23c4c5ccc(C(=O)O)c4O[C@H]2C(=O)CC[C@H]3[C@H]1C5",
+                "molecularWeight": 313.35300000000007,
+                "logP": 1.6228999999999998,
+                "qed": 0.8532679245561261,
+                "saScore": 4.98859405465668,
+                "hydrogenBondAcceptors": 4,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.1134020618556701
+            },
+            {
+                "smiles": "O=C(Oc1ccc2ncncc2c1)c1ccc2ncncc2c1",
+                "molecularWeight": 302.293,
+                "logP": 2.792200000000001,
+                "qed": 0.41834311883877123,
+                "saScore": 2.2981499539693093,
+                "hydrogenBondAcceptors": 6,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.15
+            }
+        ],
+        "name": "Lemborexant"
+    },
+    {
+        "analogs": [
+            {
+                "smiles": "CC",
+                "molecularWeight": 30.07,
+                "logP": 1.0262,
+                "qed": 0.3727855551576051,
+                "saScore": 2.7475679189493913,
+                "hydrogenBondAcceptors": 0,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.05
+            },
+            {
+                "smiles": "CCC(C)C",
+                "molecularWeight": 72.151,
+                "logP": 2.0524,
+                "qed": 0.44444083512699417,
+                "saScore": 1.6827192913792715,
+                "hydrogenBondAcceptors": 0,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.038461538461538464
+            },
+            {
+                "smiles": "N#Cc1ccccc1",
+                "molecularWeight": 103.12399999999997,
+                "logP": 1.5582799999999999,
+                "qed": 0.48844457037463734,
+                "saScore": 1.383705654729635,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.03125
+            },
+            {
+                "smiles": "O=CO",
+                "molecularWeight": 46.025,
+                "logP": -0.29919999999999997,
+                "qed": 0.3801607209681124,
+                "saScore": 3.056957038634983,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.0
+            },
+            {
+                "smiles": "O=CC(=O)C(=O)Oc1ccccc1",
+                "molecularWeight": 178.143,
+                "logP": 0.35999999999999965,
+                "qed": 0.22027173680936415,
+                "saScore": 2.2574397500088264,
+                "hydrogenBondAcceptors": 4,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 3,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.024390243902439025
+            }
+        ],
+        "name": "Memantine"
+    },
+    {
+        "analogs": [
+            {
+                "smiles": "Cc1cc(=O)n2c(n1)CCCC2",
+                "molecularWeight": 164.20799999999997,
+                "logP": 0.88802,
+                "qed": 0.5703949944623928,
+                "saScore": 2.3702026473806885,
+                "hydrogenBondAcceptors": 3,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.3088235294117647
+            },
+            {
+                "smiles": "CNc1ccc(F)cn1",
+                "molecularWeight": 126.134,
+                "logP": 1.2623999999999997,
+                "qed": 0.6123654400667239,
+                "saScore": 2.0590126226101724,
+                "hydrogenBondAcceptors": 2,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.1388888888888889
+            },
+            {
+                "smiles": "CCN(C)C(=O)c1cc2c(cc1C(=O)[O-])C[C@H](c1nc3c(C)c(Cl)ccc3[nH]1)C2=O",
+                "molecularWeight": 424.86400000000015,
+                "logP": 2.50272,
+                "qed": 0.6921222812582484,
+                "saScore": 3.659342206847043,
+                "hydrogenBondAcceptors": 5,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 4,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.12962962962962962
+            },
+            {
+                "smiles": "CCN(C)C(=O)C(=O)OC(=O)O[C@H]1Cc2cc(-c3ccc(F)c(Cl)c3)c(C(=O)Nc3ncc4c(N)nccn34)cc2C1=O",
+                "molecularWeight": 608.97,
+                "logP": 3.2888,
+                "qed": 0.19417980904605298,
+                "saScore": 3.9992080713808464,
+                "hydrogenBondAcceptors": 11,
+                "hydrogenBondDonors": 2,
+                "rotatableBonds": 5,
+                "lipinskiRule": "Fail",
+                "tanimotoSimilarity": 0.11538461538461539
+            },
+            {
+                "smiles": "CN1CC[C@]23c4c5ccc(C6(C(=O)O)CCCCC6)c4O[C@H]2C(=O)CC[C@H]3[C@H]1C5",
+                "molecularWeight": 395.4990000000002,
+                "logP": 3.2112000000000016,
+                "qed": 0.8329373250105297,
+                "saScore": 5.249304360400906,
+                "hydrogenBondAcceptors": 4,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.14705882352941177
+            }
+        ],
+        "name": "Risperidone"
+    },
+    {
+        "analogs": [
+            {
+                "smiles": "CCCC(=O)[O-]",
+                "molecularWeight": 87.09799999999998,
+                "logP": -0.4636,
+                "qed": 0.45675461559567304,
+                "saScore": 3.4236443944400072,
+                "hydrogenBondAcceptors": 2,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.13636363636363635
+            },
+            {
+                "smiles": "CCc1ccc(C(N)=O)cc1",
+                "molecularWeight": 149.193,
+                "logP": 1.3479,
+                "qed": 0.6772075564094467,
+                "saScore": 1.357706490143384,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.1875
+            },
+            {
+                "smiles": "Cc1nc2n(c(=O)c1C(=O)O)CCCC2",
+                "molecularWeight": 208.21699999999993,
+                "logP": 0.5862199999999997,
+                "qed": 0.7325506707290556,
+                "saScore": 2.3683950324999774,
+                "hydrogenBondAcceptors": 4,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.07936507936507936
+            },
+            {
+                "smiles": "CN(C)CC=CC(N)=O",
+                "molecularWeight": 128.17499999999998,
+                "logP": -0.4104999999999998,
+                "qed": 0.5250711661988055,
+                "saScore": 2.8218574386636845,
+                "hydrogenBondAcceptors": 2,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 3,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.14285714285714285
+            },
+            {
+                "smiles": "C[C@H]1C=C2C=C[C@H](C)C[C@H]2C(=CC[C@@]2(C)CCCN2C(=O)O)C1",
+                "molecularWeight": 315.457,
+                "logP": 5.013800000000004,
+                "qed": 0.7273216647251614,
+                "saScore": 4.9020600193621675,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Fail",
+                "tanimotoSimilarity": 0.08974358974358974
+            }
+        ],
+        "name": "Rivastigmine"
+    },
+    {
+        "analogs": [
+            {
+                "smiles": "Clc1ccccc1Cl",
+                "molecularWeight": 147.00399999999996,
+                "logP": 2.9934000000000003,
+                "qed": 0.528586338832196,
+                "saScore": 1.1284887498953378,
+                "hydrogenBondAcceptors": 0,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.2571428571428571
+            },
+            {
+                "smiles": "c1ccc(C2CC2)cc1",
+                "molecularWeight": 118.17899999999997,
+                "logP": 2.564,
+                "qed": 0.5312966219394869,
+                "saScore": 1.2620812616634272,
+                "hydrogenBondAcceptors": 0,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.2564102564102564
+            },
+            {
+                "smiles": "Nc1ncnc2c1ncn2-c1ccc(Cl)c(Cl)c1",
+                "molecularWeight": 280.118,
+                "logP": 2.7045000000000012,
+                "qed": 0.7436299920873385,
+                "saScore": 2.2636887291593357,
+                "hydrogenBondAcceptors": 5,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.1724137931034483
+            },
+            {
+                "smiles": "Nc1ncnc2c1ncn2N1CCCC1",
+                "molecularWeight": 204.23699999999994,
+                "logP": 0.14029999999999987,
+                "qed": 0.7149390575968008,
+                "saScore": 2.851284867055666,
+                "hydrogenBondAcceptors": 6,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.05
+            },
+            {
+                "smiles": "Cc1nc2n(c(=O)c1[C@H]1CCCN1c1ccc(F)cc1)CCCC2",
+                "molecularWeight": 327.40300000000013,
+                "logP": 3.3686200000000026,
+                "qed": 0.8486778075106206,
+                "saScore": 2.965763968554862,
+                "hydrogenBondAcceptors": 4,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.0958904109589041
+            }
+        ],
+        "name": "Sertraline"
+    },
+    {
+        "analogs": [
+            {
+                "smiles": "CCC(C)(C)c1ccc2ncncc2c1",
+                "molecularWeight": 200.28499999999997,
+                "logP": 3.317400000000002,
+                "qed": 0.7428203621366285,
+                "saScore": 2.2589847671555656,
+                "hydrogenBondAcceptors": 2,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 2,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.1
+            },
+            {
+                "smiles": "O=CO",
+                "molecularWeight": 46.025,
+                "logP": -0.29919999999999997,
+                "qed": 0.3801607209681124,
+                "saScore": 3.056957038634983,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.05
+            },
+            {
+                "smiles": "CCC(C)C",
+                "molecularWeight": 72.151,
+                "logP": 2.0524,
+                "qed": 0.44444083512699417,
+                "saScore": 1.6827192913792715,
+                "hydrogenBondAcceptors": 0,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.04838709677419355
+            },
+            {
+                "smiles": "C1CCOC1",
+                "molecularWeight": 72.107,
+                "logP": 0.7968,
+                "qed": 0.410937601049349,
+                "saScore": 2.0262776130575944,
+                "hydrogenBondAcceptors": 1,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.031746031746031744
+            },
+            {
+                "smiles": "Fc1ccccc1",
+                "molecularWeight": 96.10399999999998,
+                "logP": 1.8256999999999999,
+                "qed": 0.46184033029146143,
+                "saScore": 1.0,
+                "hydrogenBondAcceptors": 0,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.030303030303030304
+            }
+        ],
+        "name": "Simvastatin"
+    },
+    {
+        "analogs": [
+            {
+                "smiles": "Nc1c2c(nc3ccccc13)CCCC2",
+                "molecularWeight": 198.26899999999992,
+                "logP": 2.695800000000001,
+                "qed": 0.7064882384087371,
+                "saScore": 2.0147191327899314,
+                "hydrogenBondAcceptors": 2,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.9655172413793104
+            },
+            {
+                "smiles": "c1ccc2ncncc2c1",
+                "molecularWeight": 130.15,
+                "logP": 1.6297999999999997,
+                "qed": 0.5412819114011972,
+                "saScore": 1.772800135906282,
+                "hydrogenBondAcceptors": 2,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.225
+            },
+            {
+                "smiles": "O=C1OCc2ccccc21",
+                "molecularWeight": 134.13399999999996,
+                "logP": 1.357,
+                "qed": 0.5005424213312495,
+                "saScore": 1.879067775163577,
+                "hydrogenBondAcceptors": 2,
+                "hydrogenBondDonors": 0,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.13953488372093023
+            },
+            {
+                "smiles": "Nc1nccn2c(-c3noc4cc(F)ccc34)ncc12",
+                "molecularWeight": 269.23900000000003,
+                "logP": 2.2588,
+                "qed": 0.5727807767690988,
+                "saScore": 2.8591473603781754,
+                "hydrogenBondAcceptors": 6,
+                "hydrogenBondDonors": 1,
+                "rotatableBonds": 1,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.125
+            },
+            {
+                "smiles": "Nc1nccn2c(O)ncc12",
+                "molecularWeight": 150.141,
+                "logP": 0.017099999999999838,
+                "qed": 0.5545277496992537,
+                "saScore": 3.1453904107389175,
+                "hydrogenBondAcceptors": 5,
+                "hydrogenBondDonors": 2,
+                "rotatableBonds": 0,
+                "lipinskiRule": "Pass",
+                "tanimotoSimilarity": 0.10204081632653061
+            }
+        ],
+        "name": "Tacrine Hydrochloride"
+    }
+]
