@@ -33,7 +33,7 @@ This repository is designed to develop and experiment with machine learning mode
 - Load and clean SMILES datasets using RDKit.
 
 ### **Step 2: Convert SMILES**
-- Transform SMILES into numerical fingerprints using RDKit.
+- Transform SMILES into numerical morgan fingerprints using RDKit.
 
 ### **Step 3: Train Models**
 - Train the VAE to encode and reconstruct molecules.
