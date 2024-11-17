@@ -57,6 +57,72 @@ def validate_smiles(smiles):
     else:
         return False
 
+# def clean_smiles(smiles):
+#     if validate_smiles(smiles):
+#         mol = Chem.MolFromSmiles(smiles)
+#         Chem.SanitizeMol(mol)
+#         return Chem.MolToSmiles(mol, canonical=True)  # Return canonical SMILES
+
+#     return None
+
+# def fix_common_smiles_issues(smiles):
+#     valid_chars = set("CNOFPSIHBrcnopfsi0123456789-=#()[]+/\\")
+#     smiles = "".join([char for char in smiles if char in valid_chars])  # Remove invalid characters
+
+#     # Balance brackets
+#     while smiles.count("(") > smiles.count(")"):
+#         smiles += ")"
+#     while smiles.count("[") > smiles.count("]"):
+#         smiles += "]"
+
+#     # Fix unmatched ring closures
+#     ring_numbers = set(char for char in smiles if char.isdigit())
+#     for num in ring_numbers:
+#         if smiles.count(num) % 2 != 0:  # Remove unmatched digits
+#             smiles = smiles.replace(num, "", 1)
+
+#     if validate_smiles(smiles):
+#         return smiles
+    
+#     return None
+
+# def refine_smiles(smiles):
+#     for i in range(len(smiles), 0, -1):
+#         truncated_smiles = smiles[:i]  # Try shorter versions of the string
+#         if validate_smiles(smiles):
+#             mol = Chem.MolFromSmiles(truncated_smiles)
+#             if mol:
+#                 return Chem.MolToSmiles(mol, canonical=True)  # Return canonical SMILES
+#         else:
+#             continue
+#     return None
+
+# def fix_smiles_pipeline(smiles):
+#     # Step 1: Clean with RDKit sanitization
+#     fixed_smiles = clean_smiles(smiles)
+#     if fixed_smiles:
+#         return fixed_smiles
+
+#     # Step 2: Apply basic heuristics
+#     smiles = fix_common_smiles_issues(smiles)
+
+#     # Step 3: Refine iteratively
+#     fixed_smiles = refine_smiles(smiles)
+#     if fixed_smiles:
+#         return fixed_smiles
+
+#     return None
+
+# Function to calculate SA score with fixes
+# def calculate_sa_score_with_fix(smiles):
+#     fixed_smiles = fix_smiles_pipeline(smiles)  # Attempt to fix the SMILES
+#     if fixed_smiles:
+#         mol = Chem.MolFromSmiles(fixed_smiles)
+#         if mol:
+#             sa_score = calculateScore(mol)
+#             return sa_score
+#     return None
+    
 # Load and preprocess dataset
 smiles_data = load_smiles_dataset('FDA_approved_drugs_with_smiles.csv')
 # print(smiles_data)
@@ -131,6 +197,7 @@ latent_vector = torch.randn(1, 512)  # Random latent vector
 
 # Generate SMILES
 generated_smiles = decoder.decode(latent_vector, max_length=120, vocab=idx_to_char)
+# fixed = calculate_sa_score_with_fix(generated_smiles)
 print()
 print("Generated SMILES:")
 print()

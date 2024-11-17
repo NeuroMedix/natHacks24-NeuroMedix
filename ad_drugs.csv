@@ -1,0 +1,21 @@
+Chemical Name,SMILES
+Choline Alfoscerate,C[N+](C)(C)CCO[P@@](=O)(O)OC[C@H](O)CO
+Donepezil Hydrochloride,COc1cc2c(cc1OC)C(=O)[C@H](CC1CCN(Cc3ccccc3)CC1)C2
+Memantine,C[C@@]12CC3CC(N)(C1)C[C@](C)(C3)C2
+Gabapentin Enacarbil,CC(C)C(=O)OC(C)OC(=O)NCC1(CCCCC1)CC(=O)O
+Acetyl-L-Carnitine,CC(=O)O[C@H](CC(=O)[O-])C[N+](C)(C)C
+Rivastigmine,CCN(C)C(=O)OC1=CC=CC(=C1)[C@H](C)N(C)C
+Escitalopram,CN(C)CCC[C@@]1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F
+Flurbiprofen,CC(C1=CC(=C(C=C1)C2=CC=CC=C2)F)C(=O)O
+Adenosine,C1=NC(=C2C(=N1)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O)N
+Tacrine Hydrochloride,C1CCC2=NC3=CC=CC=C3C(=C2C1)N.Cl
+Galantamine,CN1CC[C@@]23C=C[C@@H](C[C@@H]2OC4=C(C=CC(=C34)C1)OC)O
+Daridorexant,CC1=C(C=CC2=C1N=C(N2)[C@@]3(CCCN3C(=O)C4=C(C=CC(=C4)OC)N5N=CC=N5)C)Cl
+Risperidone,CC1=C(C(=O)N2CCCCC2=N1)CCN3CCC(CC3)C4=NOC5=C4C=CC(=C5)F
+Sertraline,CN[C@H]1CC[C@H](C2=CC=CC=C12)C3=CC(=C(C=C3)Cl)Cl
+Simvastatin,CCC(C)(C)C(=O)O[C@H]1C[C@H](C=C2[C@H]1[C@H]([C@H](C=C2)C)CC[C@@H]3C[C@H](CC(=O)O3)O)C
+Afatinib,CN(C)C/C=C/C(=O)NC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC(=C(C=C3)F)Cl)O[C@H]4CCOC4
+Lemborexant,CC1=NC(=NC=C1OC[C@]2(C[C@H]2C(=O)NC3=NC=C(C=C3)F)C4=CC(=CC=C4)F)C
+Hydrocodone,CN1CC[C@]23[C@@H]4[C@H]1CC5=C2C(=C(C=C5)OC)O[C@H]3C(=O)CC4
+Atorvastatin,CC(C)C1=C(C(=C(N1CC[C@H](C[C@H](CC(=O)O)O)O)C2=CC=C(C=C2)F)C3=CC=CC=C3)C(=O)NC4=CC=CC=C4
+Acalaburinib,CC#CC(=O)N1CCC[C@H]1C2=NC(=C3N2C=CN=C3N)C4=CC=C(C=C4)C(=O)NC5=CC=CC=N5
