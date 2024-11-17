@@ -7,89 +7,44 @@ This repository is designed to develop and experiment with machine learning mode
 
 ## **Repository Structure**
 
-### **1. Code Files**
+### **Code Files**
+- **`main.py`**: Main script for loading data, training models, and generating SMILES.
+- **`vae_model.py`**: Defines the VAE architecture for encoding and decoding molecules.
+- **`smiles_decoder.py`**: Implements the SMILES Decoder to reconstruct SMILES from latent space.
+- **`smile_to_img.py`**: Converts SMILES strings into molecular images.
 
-- **`main.py`**
-  - **Purpose**: Main script for the entire workflow, including:
-    - Loading and preprocessing molecular datasets.
-    - Converting SMILES strings to numerical representations (Morgan fingerprints).
-    - Training the VAE and SMILES decoder models.
-    - Generating and validating new SMILES.
-  
-- **`vae_model.py`**
-  - **Purpose**: Defines the architecture and training process for the VAE.
-  - **Key Features**:
-    - Encoder to compress molecular data into a latent space.
-    - Decoder to reconstruct molecular data from the latent space.
-    - Training function to optimize the VAE model.
+### **Dataset Files**
+- **`FDA_approved_drugs_with_smiles.csv`**: FDA-approved drugs with SMILES data.
+- **`ad_drugs.csv`**: Drugs related to Alzheimer's Disease.
+- **`zinc_database.csv`**: Additional dataset for training.
 
-- **`smiles_decoder.py`**
-  - **Purpose**: Implements the SMILES Decoder model to convert latent representations into SMILES strings.
-  - **Key Features**:
-    - RNN-based decoder architecture.
-    - Training function for the decoder.
-    - Functionality to generate new SMILES from latent space representations.
+### **Model Files**
+- **`vae_model.pth`**: Pre-trained VAE model weights.
+- **`smiles_decoder.pth`**: Pre-trained SMILES Decoder model weights.
 
-- **`smile_to_img.py`**
-  - **Purpose**: Converts SMILES strings into molecular images for visualization.
-
-### **2. Dataset Files**
-
-- **`FDA_approved_drugs_with_smiles.csv`**
-  - **Description**: Contains FDA-approved drugs and their SMILES representations.
-  - **Usage**: Primary dataset for training the VAE and decoder models.
-
-- **`ad_drugs.csv`**
-  - **Description**: Dataset focusing on drugs related to Alzheimer's Disease.
-  - **Usage**: Used for validation or further model refinement.
-
-- **`zinc_database.csv`**
-  - **Description**: Supplementary dataset containing additional molecular data.
-  - **Usage**: Augments the training of the VAE for a broader chemical space.
-
-### **3. Model Files**
-
-- **`vae_model.pth`**
-  - **Description**: Pre-trained weights for the VAE model.
-  - **Usage**: Allows direct inference without retraining.
-
-- **`smiles_decoder.pth`**
-  - **Description**: Pre-trained weights for the SMILES Decoder model.
-  - **Usage**: Enables generation of SMILES strings without retraining.
-
-### **4. Utility Files**
-
-- **`requirements.txt`**
-  - **Description**: Specifies the Python libraries required to run the project.
-  - **Installation Command**:
-    ```bash
-    pip install -r requirements.txt
-    ```
+### **Utility Files**
+- **`requirements.txt`**: Lists required Python libraries.
 
 ---
 
 ## **Workflow**
 
-### **Step 1: Data Preprocessing**
-- Load SMILES datasets (e.g., `FDA_approved_drugs_with_smiles.csv`).
-- Validate and clean SMILES strings using RDKit to ensure they represent valid molecules.
+### **Step 1: Preprocess Data**
+- Load and clean SMILES datasets using RDKit.
 
-### **Step 2: Convert SMILES to Numerical Representations**
-- Use RDKit's Morgan fingerprints to convert SMILES into fixed-length numerical arrays.
+### **Step 2: Convert SMILES**
+- Transform SMILES into numerical fingerprints using RDKit.
 
-### **Step 3: Train the Models**
-- Train the Variational Autoencoder (VAE) to:
-  - Encode molecular data into a latent space.
-  - Reconstruct molecules from the latent space.
-- Train the SMILES Decoder to:
-  - Generate valid SMILES strings from latent representations.
+### **Step 3: Train Models**
+- Train the VAE to encode and reconstruct molecules.
+- Train the SMILES Decoder to generate SMILES from latent representations.
 
 ### **Step 4: Generate New Molecules**
-- Use the trained VAE and Decoder to sample the latent space and generate new molecular structures in SMILES format.
+- Use trained models to generate new SMILES from the latent space.
 
 ### **Step 5: Validate and Visualize**
-- Validate the generated SMILES strings to ensure they represent valid molecules.
-- Convert SMILES strings to images using `smile_to_img.py` for easier visualization.
+- Validate the generated SMILES.
+- Visualize molecular structures using `smile_to_img.py`.
 
 ---
 
@@ -120,7 +75,7 @@ This repository is designed to develop and experiment with machine learning mode
 ## **Limitations and Future Work**
 
 ### **Current Limitations**
-- Generated SMILES - not always represent valid molecules.
+- Generated SMILES may not always represent valid molecules.
 - Limited by the quality and size of the training dataset.
 - Basic model architecture may struggle with highly complex molecular structures.
 
@@ -132,7 +87,7 @@ This repository is designed to develop and experiment with machine learning mode
 ---
 
 ## **Applications**
-While this project demonstrates drug discovery for Alzheimer’s Disease, the same framework can be extended to:
+While this project demonstrates drug discovery for Alzheimer's Disease, the same framework can be extended to:
 - Discover treatments for other diseases.
 - Explore new materials or biologically active compounds.
 
